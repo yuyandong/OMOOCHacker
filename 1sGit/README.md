@@ -1,7 +1,8 @@
 # Git & GitHub
 ~ 上手、使用的心得体会
 
-
+.git 
+`git diff` 会返回本地仓库和远程仓库的文件的不同。比如默认使用vim 打开 文本文件。
 
 ## 进展
 
@@ -47,6 +48,7 @@
 
 >git merge-file README.my README README.upstream
 combines the changes of README.my and README.upstream since README, tries to merge them and writes the result into README.my.
+//把从原初文件`READEME` 增减过的 `REAME.upstream` 里的内容写入 `REASME.my` 
 
 难道是这样吗? 
 试试吧，不过还是不同情况，走不通。。。
