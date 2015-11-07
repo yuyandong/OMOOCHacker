@@ -2,7 +2,9 @@
 ~ 上手、使用的心得体会
 
 .git 
+
 `git commit -am "xxx"` -am _add + commit 
+
 `git diff` 会返回本地仓库和远程仓库的文件的不同。比如默认使用vim 打开 文本文件。
 
 `git merge-file `
