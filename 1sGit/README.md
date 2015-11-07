@@ -10,11 +10,16 @@
 `git merge-file `
 >A conflict occurs if both <current-file> and <other-file> have changes in a common segment of lines. If a conflict is found, git merge-file normally outputs a warning and brackets the conflict with lines containing <<<<<<<and>>>>>>> markers. A typical conflict will look like this:
 
-`<<<<<<< A
+```
+<<<<<<< A
 lines in file A
 =======
 lines in file B
->>>>>>> B`
+>>>>>>> B
+>>>>>>> 
+```
+
+
 
 ## 进展
 
